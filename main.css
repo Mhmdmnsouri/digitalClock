@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #4776E6;
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    font-family: cursive;
+    color: lightcyan;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    font-size: 2vw;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 10px;
+}
